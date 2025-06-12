@@ -6,7 +6,6 @@ def factorial(num):
 
 numero = int(input("Ingresa un numero entero: "))
 
-# Validar entrada y calcular los factoriales
 if numero < 1:
     print("Ingresa un numero mayor o igual a 1.")
 else:
