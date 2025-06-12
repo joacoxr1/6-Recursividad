@@ -4,7 +4,6 @@ def decimal_a_binario(num):
     else:
         return decimal_a_binario(num // 2) + str(num % 2)
 
-# Programa principal
 numero = int(input("Ingrese un numero entero positivo: "))
 
 if numero <= 0:
